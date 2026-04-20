@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research Laboratory | Daffodil International University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="main-navigation" id="mainNav">
+        <div class="container-fluid nav-container">
+            <div class="nav-wrapper">
+                <a href="#home" class="nav-brand">
+                    <span class="brand-icon"><i class="fas fa-brain"></i></span>
+                    <span class="brand-text">AI<span class="brand-accent">Lab</span></span>
+                </a>
+
+                <ul class="nav-menu-desktop">
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About Us</a></li>
+                    <li><a href="#research" class="nav-link"><i class="fas fa-flask"></i> Research</a></li>
+                    <li><a href="#team" class="nav-link"><i class="fas fa-users"></i> Our Team</a></li>
+                    <li><a href="#publications" class="nav-link"><i class="fas fa-book"></i> Publications</a></li>
+                    <li><a href="#contact" class="nav-link nav-cta"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                    <span class="toggle-bar"></span>
+                </button>
+            </div>
+
+            <div class="mobile-menu" id="mobileMenu">
+                <ul class="mobile-nav-list">
+                    <li><a href="#home" class="mobile-link">Home</a></li>
+                    <li><a href="#about" class="mobile-link">About Us</a></li>
+                    <li><a href="#research" class="mobile-link">Research Domains</a></li>
+                    <li><a href="#team" class="mobile-link">Our Team</a></li>
+                    <li><a href="#publications" class="mobile-link">Publications</a></li>
+                    <li><a href="#contact" class="mobile-link">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7 col-md-10">
+                    <div class="hero-badge">
+                        <i class="fas fa-star"></i> Established 2020 • DIU Research Excellence
+                    </div>
+                    <h1 class="hero-main-title">
+                        Artificial Intelligence<br>
+                        <span class="title-accent">Research Laboratory</span>
+                    </h1>
+                    <p class="hero-description">
+                        At the frontier of Machine Learning, Deep Learning, Computer Vision, Natural Language Processing,
+                        and Robotics, we design systems that learn, adapt, and solve problems that matter. Our
+                        multidisciplinary teams accelerate breakthroughs from prototype to production — delivering
+                        scalable, responsible AI that improves healthcare, mobility, and everyday life.
+                    </p>
+                    <div class="hero-action-buttons">
+                        <a href="#research" class="btn-hero-primary">
+                            <span>Explore Research Areas</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn-hero-secondary">
+                            <i class="fas fa-handshake"></i>
+                            <span>Collaborate With Us</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-stats-row">
+                        <div class="stat-box">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Research Papers</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-box">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Expert Researchers</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-box">
+                            <span class="stat-number">$2M+</span>
+                            <span class="stat-label">Research Funding</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-box">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Industry Partners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header-block">
+                <span class="section-label">Who We Are</span>
+                <h2 class="section-heading">About The Laboratory</h2>
+                <p class="section-subtext">A premier center of excellence driving innovation through cutting-edge artificial intelligence research.</p>
+            </div>
+
+            <div class="about-content-grid">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-text-panel">
+                            <h3 class="about-title">Bridging Academic Excellence<br>& Industry Innovation</h3>
+                            <p class="about-paragraph">
+                                The AI Research Laboratory at Daffodil International University is a bold convergence of
+                                curiosity-driven science and mission-oriented engineering. Since 2020 we've grown into an
+                                international hub where faculty, students, and industry partners co-design AI systems that
+                                are robust, ethical, and built to deliver measurable impact across society.
+                            </p>
+                            <p class="about-paragraph">
+                                Backed by GPU-scale compute, advanced robotics platforms, and human-centered evaluation
+                                facilities, we translate ideas into real-world deployments. We publish open, reproducible
+                                research, forge industry collaborations, and mentor the next generation of AI leaders — all
+                                focused on solutions that uplift healthcare, sustainability, and inclusive economic growth.
+                            </p>
+
+                            <div class="feature-list">
+                                <div class="feature-item">
+                                    <div class="feature-check"><i class="fas fa-check-circle"></i></div>
+                                    <div class="feature-text">
+                                        <strong>World-Class Infrastructure</strong>
+                                        <span>HPC clusters with NVIDIA A100 GPUs</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-check"><i class="fas fa-check-circle"></i></div>
+                                    <div class="feature-text">
+                                        <strong>Global Collaborations</strong>
+                                        <span>Partnerships with MIT, Stanford, Oxford</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-check"><i class="fas fa-check-circle"></i></div>
+                                    <div class="feature-text">
+                                        <strong>Industry Integration</strong>
+                                        <span>Real-world impact through R&D partnerships</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="about-image-panel">
+                            <img src="https://picsum.photos/id/1015/1200/800" alt="AI Research Laboratory Facility" class="about-image">
+                            <div class="image-floating-card">
+                                <div class="floating-icon"><i class="fas fa-trophy"></i></div>
+                                <div class="floating-content">
+                                    <span class="floating-number">5+</span>
+                                    <span class="floating-text">Years of<br>Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vmg-cards-row">
+                <div class="row g-4 mt-4">
+                    <div class="col-md-4">
+                        <div class="vmg-card vision-card">
+                            <div class="vmg-icon-wrap">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3 class="vmg-title">Our Vision</h3>
+                            <p class="vmg-description">
+                                To establish ourselves as a globally recognized center of AI excellence that produces 
+                                transformative research while nurturing ethical technology leaders who will shape the future 
+                                of intelligent systems worldwide.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="vmg-card mission-card">
+                            <div class="vmg-icon-wrap">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3 class="vmg-title">Our Mission</h3>
+                            <p class="vmg-description">
+                                We advance the theoretical foundations of AI while developing practical, deployable solutions 
+                                that create positive societal impact through rigorous research, quality education, and meaningful 
+                                cross-sector collaboration.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="vmg-card goals-card">
+                            <div class="vmg-icon-wrap">
+                                <i class="fas fa-flag-checkered"></i>
+                            </div>
+                            <h3 class="vmg-title">Research Goals</h3>
+                            <p class="vmg-description">
+                                Publish in top-tier venues (NeurIPS, ICML, CVPR), secure competitive grants, develop 
+                                open-source tools, mentor graduate students, and translate research into products benefiting 
+                                local communities and global markets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research-section">
+        <div class="container">
+            <div class="section-header-block light-version">
+                <span class="section-label light-label">What We Do</span>
+                <h2 class="section-heading light-heading">Core Research Domains</h2>
+                <p class="section-subtext light-subtext">Six interconnected domains pushing the boundaries of artificial intelligence capabilities.</p>
+            </div>
+
+            <div class="research-cards-grid">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="research-card-modern">
+                            <div class="rc-top-bar ml-bar">
+                                <i class="fas fa-brain rc-icon"></i>
+                                <h3 class="rc-name">Machine Learning</h3>
+                            </div>
+                            <div class="rc-body">
+                                <p class="rc-intro">Developing algorithms enabling systems to learn and improve from experience without explicit programming.</p>
+                                <ul class="rc-feature-list">
+                                    <li><i class="fas fa-chevron-right"></i> Deep Neural Network Architectures</li>
+                                    <li><i class="fas fa-chevron-right"></i> Ensemble & Boosting Methods</li>
+                                    <li><i class="fas fa-chevron-right"></i> Reinforcement Learning Systems</li>
+                                    <li><i class="fas fa-chevron-right"></i> Federated & Privacy-Preserving ML</li>
+                                    <li><i class="fas fa-chevron-right"></i> Explainable AI (XAI) Frameworks</li>
+                                </ul>
+                                <div class="rc-footer-bar">
+                                    <span class="project-count"><i class="fas fa-folder-open"></i> 12 Active Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="research-card-modern">
+                            <div class="rc-top-bar dl-bar">
+                                <i class="fas fa-network-wired rc-icon"></i>
+                                <h3 class="rc-name">Deep Learning</h3>
+                            </div>
+                            <div class="rc-body">
+                                <p class="rc-intro">Leveraging multi-layered neural networks to model complex patterns in high-dimensional data spaces.</p>
+                                <ul class="rc-feature-list">
+                                    <li><i class="fas fa-chevron-right"></i> Transformer Models & Attention</li>
+                                    <li><i class="fas fa-chevron-right"></i> Generative Adversarial Networks</li>
+                                    <li><i class="fas fa-chevron-right"></i> Graph Neural Networks (GNN)</li>
+                                    <li><i class="fas fa-chevron-right"></i> Self-Supervised Learning</li>
+                                    <li><i class="fas fa-chevron-right"></i> Neural Architecture Search</li>
+                                </ul>
+                                <div class="rc-footer-bar">
+                                    <span class="project-count"><i class="fas fa-folder-open"></i> 9 Active Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="research-card-modern">
+                            <div class="rc-top-bar cv-bar">
+                                <i class="fas fa-eye rc-icon"></i>
+                                <h3 class="rc-name">Computer Vision</h3>
+                            </div>
+                            <div class="rc-body">
+                                <p class="rc-intro">Enabling machines to interpret and understand the visual world through advanced image processing techniques.</p>
+                                <ul class="rc-feature-list">
+                                    <li><i class="fas fa-chevron-right"></i> Medical Image Analysis</li>
+                                    <li><i class="fas fa-chevron-right"></i> Autonomous Navigation Systems</li>
+                                    <li><i class="fas fa-chevron-right"></i> Video Understanding & Recognition</li>
+                                    <li><i class="fas fa-chevron-right"></i> 3D Scene Reconstruction</li>
+                                    <li><i class="fas fa-chevron-right"></i> Visual Question Answering</li>
+                                </ul>
+                                <div class="rc-footer-bar">
+                                    <span class="project-count"><i class="fas fa-folder-open"></i> 8 Active Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="research-card-modern">
+                            <div class="rc-top-bar nlp-bar">
+                                <i class="fas fa-comments rc-icon"></i>
+                                <h3 class="rc-name">Natural Language Processing</h3>
+                            </div>
+                            <div class="rc-body">
+                                <p class="rc-intro">Building systems that understand, interpret, and generate human language with contextual awareness.</p>
+                                <ul class="rc-feature-list">
+                                    <li><i class="fas fa-chevron-right"></i> Large Language Models (LLMs)</li>
+                                    <li><i class="fas fa-chevron-right"></i> Sentiment Analysis & Mining</li>
+                                    <li><i class="fas fa-chevron-right"></i> Low-Resource Translation</li>
+                                    <li><i class="fas fa-chevron-right"></i> Dialogue Systems & Chatbots</li>
+                                    <li><i class="fas fa-chevron-right"></i> Text Summarization</li>
+                                </ul>
+                                <div class="rc-footer-bar">
+                                    <span class="project-count"><i class="fas fa-folder-open"></i> 10 Active Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="research-card-modern">
+                            <div class="rc-top-bar rob-bar">
+                                <i class="fas fa-robot rc-icon"></i>
+                                <h3 class="rc-name">Robotics & Automation</h3>
+                            </div>
+                            <div class="rc-body">
+                                <p class="rc-intro">Designing intelligent robotic systems capable of perceiving, reasoning, and acting dynamically.</p>
+                                <ul class="rc-feature-list">
+                                    <li><i class="fas fa-chevron-right"></i> Autonomous Mobile Robots</li>
+                                    <li><i class="fas fa-chevron-right"></i> Robotic Manipulation Systems</li>
+                                    <li><i class="fas fa-chevron-right"></i> Human-Robot Collaboration</li>
+                                    <li><i class="fas fa-chevron-right"></i> Swarm Intelligence</li>
+                                    <li><i class="fas fa-chevron-right"></i> Agricultural Robotics</li>
+                                </ul>
+                                <div class="rc-footer-bar">
+                                    <span class="project-count"><i class="fas fa-folder-open"></i> 6 Active Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="research-card-modern">
+                            <div class="rc-top-bar ds-bar">
+                                <i class="fas fa-chart-line rc-icon"></i>
+                                <h3 class="rc-name">Data Science & Analytics</h3>
+                            </div>
+                            <div class="rc-body">
+                                <p class="rc-intro">Extracting actionable insights from complex datasets through statistical modeling and visualization.</p>
+                                <ul class="rc-feature-list">
+                                    <li><i class="fas fa-chevron-right"></i> Predictive Analytics</li>
+                                    <li><i class="fas fa-chevron-right"></i> Big Data Pipelines</li>
+                                    <li><i class="fas fa-chevron-right"></i> Data Visualization</li>
+                                    <li><i class="fas fa-chevron-right"></i> Time Series Analysis</li>
+                                    <li><i class="fas fa-chevron-right"></i> Anomaly Detection</li>
+                                </ul>
+                                <div class="rc-footer-bar">
+                                    <span class="project-count"><i class="fas fa-folder-open"></i> 7 Active Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team-section-redesign">
+        <div class="container">
+            <div class="section-header-block">
+                <span class="section-label">Our People</span>
+                <h2 class="section-heading">Meet The Research Team</h2>
+                <p class="section-subtext">Our diverse team of world-class researchers, faculty members, and brilliant students drives innovation through collaboration and expertise.</p>
+            </div>
+
+            <div class="director-showcase">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5">
+                        <div class="director-photo-frame">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80&crop=faces" alt="Dr. Marcus Chen - Lab Director" class="director-photo">
+                            <div class="director-badge-overlay">
+                                <span class="badge-rank"><i class="fas fa-crown"></i> Director</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="director-info-panel">
+                            <div class="director-meta">
+                                <span class="meta-tag director-tag"><i class="fas fa-user-tie"></i> Professor & Founding Director</span>
+                            </div>
+                            <h3 class="director-fullname">Professor Dr. Marcus Chen</h3>
+                            <p class="director-bio-long">
+                                A distinguished researcher with over 18 years of pioneering experience in machine learning, 
+                                pattern recognition, and computational intelligence. Published 90+ papers in top-tier venues 
+                                including NeurIPS, ICML, CVPR, and AAAI. Recipient of the prestigious National Science Award 
+                                for AI Innovation (2023). Holds a Ph.D. from Stanford University.
+                            </p>
+                            <p class="director-bio-long">
+                                Under his leadership, the AI Research Lab has secured over $2 million in research funding, 
+                                established partnerships with leading global institutions, and produced groundbreaking work in 
+                                healthcare AI, autonomous systems, and natural language understanding.
+                            </p>
+
+                            <div class="expertise-tags-row">
+                                <span class="exp-tag"><i class="fas fa-circle"></i> Machine Learning</span>
+                                <span class="exp-tag"><i class="fas fa-circle"></i> Deep Learning</span>
+                                <span class="exp-tag"><i class="fas fa-circle"></i> Healthcare AI</span>
+                                <span class="exp-tag"><i class="fas fa-circle"></i> Computer Vision</span>
+                            </div>
+
+                            <div class="director-social-links">
+                                <a href="#" class="social-btn-director"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                                <a href="#" class="social-btn-director"><i class="fab fa-google-scholar"></i> Scholar</a>
+                                <a href="#" class="social-btn-director"><i class="fas fa-envelope"></i> Email</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faculty-category-block">
+                <div class="category-divider">
+                    <span class="cat-icon"><i class="fas fa-chalkboard-teacher"></i></span>
+                    <h3 class="cat-title">Faculty Researchers</h3>
+                    <span class="cat-line-decor"></span>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="faculty-card-unified">
+                            <div class="fc-photo-section">
+                                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80&crop=faces" alt="Dr. Priya Sharma" class="fc-photo">
+                                <div class="fc-role-banner">
+                                    <span>Associate Professor</span>
+                                </div>
+                            </div>
+                            <div class="fc-details-section">
+                                <h4 class="fc-member-name">Assoc. Prof. Dr. Priya Sharma</h4>
+                                <p class="fc-specialization">Computer Vision • Medical Imaging • Deep Learning</p>
+                                <p class="fc-bio-text">
+                                    Specializes in computer vision and medical image analysis. Leading a major grant project 
+                                    on early cancer detection using deep convolutional networks. Published 45+ papers in MICCAI, 
+                                    CVPR, and TMI journals.
+                                </p>
+                                <div class="fc-stats-mini">
+                                    <span><i class="fas fa-file-alt"></i> 45 Papers</span>
+                                    <span><i class="fas fa-award"></i> 3 Awards</span>
+                                </div>
+                                <div class="fc-contact-row">
+                                    <a href="#" class="fc-link-btn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#" class="fc-link-btn"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="faculty-card-unified">
+                            <div class="fc-photo-section">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80&crop=faces" alt="Dr. James Okafor" class="fc-photo">
+                                <div class="fc-role-banner">
+                                    <span>Assistant Professor</span>
+                                </div>
+                            </div>
+                            <div class="fc-details-section">
+                                <h4 class="fc-member-name">Asst. Prof. Dr. James Okafor</h4>
+                                <p class="fc-specialization">Natural Language Processing • LLMs • Multilingual AI</p>
+                                <p class="fc-bio-text">
+                                    Expert in NLP and multilingual AI systems. Developed AfriBERT, the first large-scale 
+                                    African language model family. Focuses on low-resource language processing and cross-lingual transfer learning.
+                                </p>
+                                <div class="fc-stats-mini">
+                                    <span><i class="fas fa-file-alt"></i> 38 Papers</span>
+                                    <span><i class="fas fa-code-branch"></i> 2K+ GitHub Stars</span>
+                                </div>
+                                <div class="fc-contact-row">
+                                    <a href="#" class="fc-link-btn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#" class="fc-link-btn"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="faculty-card-unified">
+                            <div class="fc-photo-section">
+                                <img src="https://i.pravatar.cc/500?img=68" alt="Dr. Elena Volkov" class="fc-photo">
+                                <div class="fc-role-banner">
+                                    <span>Assistant Professor</span>
+                                </div>
+                            </div>
+                            <div class="fc-details-section">
+                                <h4 class="fc-member-name">Asst. Prof. Dr. Elena Volkov</h4>
+                                <p class="fc-specialization">Robotics • Autonomous Systems • HRI</p>
+                                <p class="fc-bio-text">
+                                    Robotics specialist focusing on autonomous navigation and human-robot interaction. 
+                                    Leads the agricultural robotics initiative. Former researcher at ETH Zurich with expertise 
+                                    in swarm intelligence and multi-agent systems.
+                                </p>
+                                <div class="fc-stats-mini">
+                                    <span><i class="fas fa-file-alt"></i> 28 Papers</span>
+                                    <span><i class="fas fa-robot"></i> 5 Patents</span>
+                                </div>
+                                <div class="fc-contact-row">
+                                    <a href="#" class="fc-link-btn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#" class="fc-link-btn"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="students-category-block">
+                <div class="category-divider">
+                    <span class="cat-icon"><i class="fas fa-graduation-cap"></i></span>
+                    <h3 class="cat-title">Graduate Researchers & Assistants</h3>
+                    <span class="cat-line-decor"></span>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="student-card-compact">
+                            <div class="sc-avatar">
+                                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80&crop=faces" alt="Maya Thompson" class="sc-img">
+                            </div>
+                            <h4 class="sc-name">Maya Thompson</h4>
+                            <p class="sc-degree">Ph.D. Candidate</p>
+                            <p class="sc-focus">Medical Image Analysis • Deep Learning</p>
+                            <span class="sc-achievement"><i class="fas fa-medal"></i> Best Paper MICCAI 2024</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="student-card-compact">
+                            <div class="sc-avatar">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80&crop=faces" alt="David Kim" class="sc-img">
+                            </div>
+                            <h4 class="sc-name">David Kim</h4>
+                            <p class="sc-degree">M.S. Researcher</p>
+                            <p class="sc-focus">Reinforcement Learning • Autonomous Nav</p>
+                            <span class="sc-achievement"><i class="fas fa-trophy"></i> Innovation Challenge Winner</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="student-card-compact">
+                            <div class="sc-avatar">
+                                <img src="https://i.pravatar.cc/300?img=69" alt="Sofia Martinez" class="sc-img">
+                            </div>
+                            <h4 class="sc-name">Sofia Martinez</h4>
+                            <p class="sc-degree">M.S. Researcher</p>
+                            <p class="sc-focus">Low-Resource NLP • Multilingual Models</p>
+                            <span class="sc-achievement"><i class="fas fa-file-alt"></i> 3 Publications 2024</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="student-card-compact">
+                            <div class="sc-avatar">
+                                <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80&crop=faces" alt="Lucas Anderson" class="sc-img">
+                            </div>
+                            <h4 class="sc-name">Lucas Anderson</h4>
+                            <p class="sc-degree">Research Assistant</p>
+                            <p class="sc-focus">Data Science • Smart City Analytics</p>
+                            <span class="sc-achievement"><i class="fas fa-chart-line"></i> Predictive Model Deployed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications-section-redesign">
+        <div class="container">
+            <div class="section-header-block light-version">
+                <span class="section-label light-label" style="color:#000 !important;">Research Output</span>
+                <h2 class="section-heading light-heading" style="color:#000 !important;">Selected Publications</h2>
+                <p class="section-subtext light-subtext" style="color:#000 !important;">Highlighting our most impactful contributions to the global AI research community.</p>
+            </div>
+
+            <div class="pub-cards-container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="publication-card-unified">
+                            <div class="pc-year-stamp">2024</div>
+                            <div class="pc-type-badge"><i class="fas fa-heartbeat"></i> Medical AI</div>
+                            <h4 class="pc-paper-title">Deep Learning-Based Early Detection of Diabetic Retinopathy in Fundus Images Using Attention Mechanisms</h4>
+                            <p class="pc-authors-list">
+                                <strong>Marcus Chen</strong>, Priya Sharma, Maya Thompson, et al.
+                            </p>
+                            <div class="pc-venue-info">
+                                <span class="venue-name"><i class="fas fa-map-marker-alt"></i> Medical Image Analysis (MICCAI)</span>
+                                <span class="venue-impact"><i class="fas fa-chart-bar"></i> Impact Factor: 10.5</span>
+                            </div>
+                            <div class="pc-achievement-tag">
+                                <i class="fas fa-award"></i> Best Paper Award
+                            </div>
+                            <a href="#" class="pc-read-more">Read Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="publication-card-unified">
+                            <div class="pc-year-stamp">2024</div>
+                            <div class="pc-type-badge nlp-badge"><i class="fas fa-language"></i> NLP</div>
+                            <h4 class="pc-paper-title">AfriBERT: A Pretrained Language Model for Low-Resource African Languages NLP Tasks</h4>
+                            <p class="pc-authors-list">
+                                <strong>James Okafor</strong>, Sofia Martinez, David Kim
+                            </p>
+                            <div class="pc-venue-info">
+                                <span class="venue-name"><i class="fas fa-map-marker-alt"></i> ACL Findings 2024</span>
+                                <span class="venue-impact"><i class="fas fa-quote-right"></i> Highly Cited</span>
+                            </div>
+                            <div class="pc-achievement-tag highlight-tag">
+                                <i class="fas fa-fire"></i> Trending Research
+                            </div>
+                            <a href="#" class="pc-read-more">Read Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="publication-card-unified">
+                            <div class="pc-year-stamp">2023</div>
+                            <div class="pc-type-badge cv-badge"><i class="fas fa-eye"></i> Computer Vision</div>
+                            <h4 class="pc-paper-title">Multi-Object Tracking in Crowded Scenes Using Graph Neural Networks and Temporal Attention</h4>
+                            <p class="pc-authors-list">
+                                <strong>Elena Volkov</strong>, Lucas Anderson, Marcus Chen
+                            </p>
+                            <div class="pc-venue-info">
+                                <span class="venue-name"><i class="fas fa-map-marker-alt"></i> CVPR 2023</span>
+                                <span class="venue-impact"><i class="fas fa-star"></i> Spotlight Presentation</span>
+                            </div>
+                            <div class="pc-achievement-tag">
+                                <i class="fas fa-microphone"></i> Invited Talk at Meta AI
+                            </div>
+                            <a href="#" class="pc-read-more">Read Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="publication-card-unified">
+                            <div class="pc-year-stamp">2023</div>
+                            <div class="pc-type-badge rob-badge"><i class="fas fa-robot"></i> Robotics</div>
+                            <h4 class="pc-paper-title">Adaptive Swarm Robotics for Precision Agriculture: A Multi-Agent Reinforcement Learning Approach</h4>
+                            <p class="pc-authors-list">
+                                <strong>Elena Volkov</strong>, David Kim, et al.
+                            </p>
+                            <div class="pc-venue-info">
+                                <span class="venue-name"><i class="fas fa-map-marker-alt"></i> IEEE ICRA 2023</span>
+                                <span class="venue-impact"><i class="fas fa-industry"></i> Industry Adoption</span>
+                            </div>
+                            <div class="pc-achievement-tag">
+                                <i class="fas fa-seedling"></i> Deployed in 50+ Farms
+                            </div>
+                            <a href="#" class="pc-read-more">Read Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="publication-card-unified">
+                            <div class="pc-year-stamp">2023</div>
+                            <div class="pc-type-badge ml-badge"><i class="fas fa-brain"></i> Machine Learning</div>
+                            <h4 class="pc-paper-title">Federated Learning Framework for Privacy-Preserving Healthcare Data Analysis Across Multiple Institutions</h4>
+                            <p class="pc-authors-list">
+                                <strong>Marcus Chen</strong>, Maya Thompson, et al.
+                            </p>
+                            <div class="pc-venue-info">
+                                <span class="venue-name"><i class="fas fa-map-marker-alt"></i> Nature Machine Intelligence</span>
+                                <span class="venue-impact"><i class="fas fa-globe"></i> Global Impact</span>
+                            </div>
+                            <div class="pc-achievement-tag highlight-tag">
+                                <i class="fas fa-shield-alt"></i> HIPAA Compliant
+                            </div>
+                            <a href="#" class="pc-read-more">Read Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="publication-card-unified">
+                            <div class="pc-year-stamp">2022</div>
+                            <div class="pc-type-badge ds-badge"><i class="fas fa-chart-line"></i> Data Science</div>
+                            <h4 class="pc-paper-title">Predictive Analytics for Urban Traffic Management Using Spatio-Temporal Graph Neural Networks</h4>
+                            <p class="pc-authors-list">
+                                <strong>Lucas Anderson</strong>, James Okafor, et al.
+                            </p>
+                            <div class="pc-venue-info">
+                                <span class="venue-name"><i class="fas fa-map-marker-alt"></i> IEEE TKDE</span>
+                                <span class="venue-impact"><i class="fas fa-city"></i> Smart City Project</span>
+                            </div>
+                            <div class="pc-achievement-tag">
+                                <i class="fas fa-road"></i> Reducing Congestion by 30%
+                            </div>
+                            <a href="#" class="pc-read-more">Read Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section-final">
+        <div class="container">
+            <div class="section-header-block">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-heading">Contact Us</h2>
+                <p class="section-subtext">Interested in collaboration, joining our team, or learning more? We'd love to hear from you.</p>
+            </div>
+
+            <div class="contact-layout-grid">
+                <div class="row g-4">
+                    <div class="col-lg-5">
+                        <div class="contact-info-panel">
+                            <h3 class="ci-panel-title">Laboratory Information</h3>
+                            
+                            <div class="ci-item">
+                                <div class="ci-icon-box"><i class="fas fa-location-dot"></i></div>
+                                <div class="ci-text">
+                                    <strong>Laboratory Address</strong>
+                                    <p>Room 401, Academic Building 2<br>Daffodil International University<br>Dhaka-1207, Bangladesh</p>
+                                </div>
+                            </div>
+
+                            <div class="ci-item">
+                                <div class="ci-icon-box"><i class="fas fa-envelope"></i></div>
+                                <div class="ci-text">
+                                    <strong>Email Addresses</strong>
+                                    <p>airesearch@diu.edu.bd<br>collaboration.ai@diu.edu.bd</p>
+                                </div>
+                            </div>
+
+                            <div class="ci-item">
+                                <div class="ci-icon-box"><i class="fas fa-phone-flip"></i></div>
+                                <div class="ci-text">
+                                    <strong>Phone Numbers</strong>
+                                    <p>+880-1234-567890 (Office)<br>+880-9876-543210 (Lab Direct)</p>
+                                </div>
+                            </div>
+
+                            <div class="ci-item">
+                                <div class="ci-icon-box"><i class="fas fa-clock"></i></div>
+                                <div class="ci-text">
+                                    <strong>Office Hours</strong>
+                                    <p>Sunday - Thursday: 9:00 AM - 5:00 PM<br>Friday - Saturday: By Appointment Only</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <form class="contact-form-premium" action="#" method="POST">
+                            <div class="form-row-split">
+                                <div class="form-half">
+                                    <label class="cf-label">First Name *</label>
+                                    <input type="text" class="cf-input" placeholder="Enter first name" required>
+                                </div>
+                                <div class="form-half">
+                                    <label class="cf-label">Last Name *</label>
+                                    <input type="text" class="cf-input" placeholder="Enter last name" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-full">
+                                <label class="cf-label">Email Address *</label>
+                                <input type="email" class="cf-input" placeholder="your.email@example.com" required>
+                            </div>
+                            
+                            <div class="form-full">
+                                <label class="cf-label">Subject / Inquiry Type *</label>
+                                <select class="cf-input cf-select" required>
+                                    <option value="">Select your inquiry type...</option>
+                                    <option value="collab">Research Collaboration Proposal</option>
+                                    <option value="admission">Graduate Program Admission</option>
+                                    <option value="funding">Funding / Grant Opportunity</option>
+                                    <option value="media">Media / Press Inquiry</option>
+                                    <option value="general">General Question</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-full">
+                                <label class="cf-label">Your Message *</label>
+                                <textarea class="cf-textarea" rows="6" placeholder="Tell us about your research interests, collaboration ideas, or questions..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="cf-submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-wave"></div>
+        <div class="footer-main-content">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-brand-col">
+                            <h4 class="footer-logo-text"><i class="fas fa-brain"></i> AI Research Lab</h4>
+                            <p class="footer-desc">
+                                Pioneering intelligent solutions for tomorrow's challenges. Committed to excellence 
+                                in AI research, education, and innovation since 2020.
+                            </p>
+                            <div class="footer-social-icons">
+                                <a href="#" class="fs-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="fs-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="fs-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="fs-icon"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-link-col">
+                            <h4 class="footer-col-title">Quick Links</h4>
+                            <ul class="footer-link-list">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#research">Research</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-link-col">
+                            <h4 class="footer-col-title">Research Areas</h4>
+                            <ul class="footer-link-list">
+                                <li><a href="#">Machine Learning</a></li>
+                                <li><a href="#">Deep Learning</a></li>
+                                <li><a href="#">Computer Vision</a></li>
+                                <li><a href="#">NLP</a></li>
+                                <li><a href="#">Robotics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-newsletter-col">
+                            <h4 class="footer-col-title">Stay Updated</h4>
+                            <p class="newsletter-text">Subscribe to receive updates on our latest research breakthroughs and events.</p>
+                            <form class="newsletter-inline-form">
+                                <input type="email" placeholder="Your email address" class="ni-input">
+                                <button type="submit" class="ni-submit"><i class="fas fa-arrow-right"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom-bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright-text">&copy; 2026 AI Research Lab, Daffodil International University. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="course-credit">Designed for CIS 133L Course Project | Spring 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileToggle = document.getElementById('mobileToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.main-navigation');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(26, 26, 46, 0.98)';
+                navbar.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.4)';
+            } else {
+                navbar.style.background = 'var(--color-primary-900)';
+                navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.3)';
+            }
+        });
+    </script>
+
+</body>
+</html>
